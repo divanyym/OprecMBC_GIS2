@@ -1,11 +1,11 @@
 hari=input("Masukkan nama hari : ")
 if (hari == "senin" ):
-    print("Seragam anda hari ini adalah merah")
+    print("Seragam kamu hari ini adalah kemeja merah")
 elif (hari == "selasa" or "rabu"):
-    print("Seragam anda hari ini adalah putih")
+    print("Seragam kamu hari ini adalah kemeja putih")
 elif (hari == "kamis" or "sabtu"):
-    print("Seragam kamu hari ini adalah baju bebas")
+    print("Seragam kamu hari ini adalah kemeja bebas")
 elif (hari == "jumat"):
-    print("Seragam kamu hari ini adlah baju batik")
+    print("Seragam kamu hari ini adalah kemeja batik")
 else:
     print("maaf kamu salah memasukan nama hari (ex:senin,jumat)")
