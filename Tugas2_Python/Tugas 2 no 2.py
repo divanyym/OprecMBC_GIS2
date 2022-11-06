@@ -15,7 +15,7 @@ if (member == "y"):
         print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
 
     else:
-        print("Nominal yang anda masukkan salah ex:(1000000, 500000)")
+        print("Maaf Nominal yang anda masukkan salah ex:(1000000, 500000)")
 
 elif (member == "t"):
     if (totalbelanja >= 1000000):
