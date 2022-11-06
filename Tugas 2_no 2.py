@@ -24,4 +24,6 @@ elif (member == "t"):
 
     else:
         print("Nominal yang anda masukkan salah ex:(1000000, 500000)")
+else:
+    print("anda harus menginputkan y/t ")
     
