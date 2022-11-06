@@ -1,3 +1,4 @@
+print("========== SELAMAT DATANG DI GIS 2 MART ==========")
 totalbelanja = float(input('Masukkan Total Belanja Anda : '))
 member = input ("Apakah Anda Member ? Silahkan Jawab y atau t: ")
 if (member == "y"):
