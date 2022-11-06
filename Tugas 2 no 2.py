@@ -6,8 +6,12 @@ if (member == "y"):
         diskon = 8
         print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
 
-    elif (totalbelanja < 1000000 or totalbelanja >= 500000):
+    elif (500000 <= totalbelanja < 1000000):
         diskon = 7
+        print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
+
+    elif (totalbelanja > 0): 
+        diskon = 5
         print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
 
     else:
@@ -18,12 +22,15 @@ elif (member == "t"):
         diskon = 3
         print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
 
-    elif(totalbelanja >= 500000 or totalbelanja < 1000000):
+    elif(500000 <= totalbelanja < 1000000):
         diskon = 2
         print("Selamat anda mendapatkan diskon sebesar ", diskon, "%")
 
+    elif(totalbelanja > 0):
+         print("Maaf anda tidak mendapat diskon")
+
     else:
         print("Nominal yang anda masukkan salah ex:(1000000, 500000)")
+
 else:
     print("anda harus menginputkan y/t ")
-    
